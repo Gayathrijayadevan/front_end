@@ -66,6 +66,24 @@
         height: 50vh;
         align-items: center;
         justify-content: center;
+        position: relative;
+    }
+    .container>button{
+        border: none;
+        background-color: rgb(213, 213, 89);
+        padding: 10px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+    }
+    .container>h5{
+        position: absolute;
+        left: 40%;
+        top: 40%;
+        color: brown;
+        border-color:antiquewhite ;
+        
     }
     .nav{
 
@@ -91,4 +109,22 @@
     }
     .content>button{
         border: none;
+    }
+    .ds {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        
+    }
+    
+    .ds > h3 {
+        color: brown;
+        font-family: Geneva, Verdana, sans-serif;
+    }
+    
+    .ds>h3{
+        color: brown;
+        font-family: Geneva, Verdana, sans-serif;
+
     }
