@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Grey+Qo&display=swap');
 *{
     margin: 0;
     padding: 0;
     
     }
-    
+/*parent*/  
+
 .parent{
     
     background-color:burlywood;
@@ -18,6 +20,7 @@
     
     flex-wrap: wrap;
 }
+
     .parent>div{
     
     width: 200px;
@@ -36,13 +39,13 @@
     
     width: 100%;
     
-    height: 80%;
+    height: 70%;
     
     }
     
     .content{
     
-    height: 20%;
+    height: 30%;
     
     display: flex;
     
@@ -51,80 +54,98 @@
     align-items: center;
     
     }
+.content>button{
     
-    img{
-    
-    width: 100%;
-    
-    height: 100%;
-    
-    object-fit: cover;
-    
+        border: none;
+        background-color: brown;
+        color: aliceblue;
+        
     }
-    .container{
+    .content>h6{
+        color: brown;
+    }
+    
+/*-------------------------------*/    
+    
+/*container*/
+
+.container{
         width: 100vw;
         height: 50vh;
         align-items: center;
         justify-content: center;
         position: relative;
+        
     }
     .container>button{
         border: none;
-        background-color: rgb(213, 213, 89);
+        background-color: brown;
+        color: aliceblue;
         padding: 10px;
         position: absolute;
         left: 50%;
         top: 50%;
 
     }
-    .container>h5{
+    .container>h1{
         position: absolute;
         left: 40%;
         top: 40%;
         color: brown;
         border-color:antiquewhite ;
+        border-width:thick;
+        font-family: "Bodoni Moda SC", serif;
         
     }
-    .nav{
-
-        padding: 20px;
-        
-        display: flex;
-        
-        justify-content: space-between;
-        background-color: bisque;
-        color: cadetblue;
+    img{
+    
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
         
         }
+    .ds {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            
+        }
+        
+    .ds > h1 {
+            color: brown;
+            font-family: "Bodoni Moda SC", serif;
+        }
+        
+        
+/*------------------------*/
+
+/*navigation bar*/
+.nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    color: brown;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    
+}
+
         
         .left{
-        
+        font-family: "Bodoni Moda SC", serif;
         display: flex;
         
         }
         
-        .left>h4{
+    .left>h4{
         
         margin-right: 20px;
     }
-    .content>button{
-        border: none;
-    }
-    .ds {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-        
-    }
-    
-    .ds > h3 {
-        color: brown;
-        font-family: Geneva, Verdana, sans-serif;
-    }
-    
-    .ds>h3{
-        color: brown;
-        font-family: Geneva, Verdana, sans-serif;
 
+    .right{
+        font-family: "Bodoni Moda SC", serif;
     }
+   /*----------------------------------------------*/ 
