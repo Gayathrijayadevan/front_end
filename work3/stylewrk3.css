@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Grey+Qo&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left>h4{
+    margin-right: 20px;
+}
+.right{
+    font-size: larger;
+}
+/*----------------------------------*/
+/*container1*/
+.container1{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100vh;
+}
+.f{
+    flex: 2;
+}
+.f2{
+    flex: 1;
+    background-color: black;
+    color: aliceblue;
+}
+.container1>img{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.child1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content2{
+    font-family: "Mukta", sans-serif;
+    
+}
+.content2>button{
+    background-color:rgb(204, 74, 74);
+    border: none;
+    padding: 10px;
+    width: 25%;
+    
+}
