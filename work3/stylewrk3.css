@@ -41,7 +41,7 @@
     padding: 20px;
     gap: 20px;
     height: 70%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     
 }
 
@@ -54,25 +54,29 @@
 
 .f1 img {
     width: 100%;
-    height: auto;
+    height: 60%;
     object-fit: cover;
 }
 
 .content1 {
     max-width: 100%;
     display: flex;
+    height: 60%;
     /* background-color: blue; */
     
 }
 .c1{
     flex: 2;
     /* background-color: aquamarine; */
+    height: 100%;
 }
 .c2{
     margin-left: 20px;
     flex: 1;
     padding: 30px;
     font-family: "Mukta", sans-serif;
+    /* background-color: blueviolet; */
+    height: 100%;
 }
 
 .content1 h2 {
@@ -83,8 +87,8 @@
 
 .content1 p {
     font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 1.5;
+    margin-bottom: 40px;
+    line-height: 2;
 }
 
 .content1 button {
@@ -93,8 +97,8 @@
     color:black;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 2px;
+    
 }
 
 .f2 {
@@ -145,12 +149,9 @@
     gap: 20px;
     height: 30%;
     font-family: "Mukta", sans-serif;
-    
 }
 
 .container2 > div {
-    flex: 1;
-    text-align: center;
     padding: 20px;
     border-radius: 5px;
 }
@@ -179,15 +180,12 @@
     color:rgb(113, 105, 105);
 }
 
-.con2child1{
+.con2child{
     display: flex;
-    flex: 2;
+    padding-left: 20px;
 }
-.con2child2{
-    display: flex;
-    flex: 1;
+.a1{
+    margin-left: 20px;
 }
- .con2child3{
-    display: flex;
-    flex: 1;
- }
+
+
