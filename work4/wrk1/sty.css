@@ -8,24 +8,24 @@ body {
     margin: 0;
 }
 
-.contact-form {
+.reg {
     background-color:white;
     padding: 20px;
     border-radius: 8px;
     width: 400px;
 }
 
-.contact-form h2 {
+.reg h2 {
     margin-bottom: 20px;
     font-size: 24px;
     color:rgb(69, 65, 65);
 }
 
-.contact-form .form-group {
+.reg .forms {
     margin-bottom: 15px;
 }
 
-.contact-form .form-group label {
+.reg .forms label {
     display: block;
     margin-bottom: 5px;
     color:rgb(69, 65, 65);
@@ -40,30 +40,33 @@ body {
     box-sizing: border-box;
 }
 
-.contact-form .form-group textarea {
+.reg .forms textarea {
     height: 100px;
     resize: vertical;
 }
 
-.contact-form .form-group input[type="radio"] {
+.reg .forms input[type="radio"] {
     margin-right: 10px;
 }
 
-.contact-form .form-group .radio-group {
+.reg .forms .radio-group {
     display: flex;
     gap: 20px;
 }
 
-.contact-form .form-group input[type="checkbox"] {
+.reg .forms input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.contact-form .form-group .checkbox-group {
+.reg .consentbox {
     display: flex;
     align-items: center;
 }
+.consentbox>label{
+    color:rgb(69, 65, 65); 
+}
 
-.contact-form .form-group input[type="submit"] {
+.reg .forms input[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: rgb(174, 240, 174);
@@ -71,11 +74,7 @@ body {
     border: none;
     border-radius: 4px;
     font-size: 16px;
-    cursor: pointer;
-}
-
-.contact-form .form-group input[type="submit"]:hover {
-    background-color:rgb(205, 251, 205);
+    margin-top: 20px;
 }
 
 .required {
