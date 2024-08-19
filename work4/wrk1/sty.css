@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(187, 225, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:rgb(69, 65, 65);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color:rgb(69, 65, 65);
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contact-form .form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form .form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.contact-form .form-group .radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form .form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form .form-group .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(174, 240, 174);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form .form-group input[type="submit"]:hover {
+    background-color:rgb(205, 251, 205);
+}
+
+.required {
+    color: red;
+}
