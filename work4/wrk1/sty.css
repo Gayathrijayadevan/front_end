@@ -9,7 +9,7 @@ body {
 }
 
 .reg {
-    background-color:white;
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
     width: 400px;
@@ -18,17 +18,17 @@ body {
 .reg h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color:rgb(69, 65, 65);
+    color: rgb(69, 65, 65);
 }
 
-.reg .forms {
+.forms {
     margin-bottom: 15px;
 }
 
-.reg .forms label {
+.forms label {
     display: block;
     margin-bottom: 5px;
-    color:rgb(69, 65, 65);
+    color: rgb(69, 65, 65);
 }
 
 .input-field {
@@ -40,50 +40,53 @@ body {
     box-sizing: border-box;
 }
 
-.reg .forms textarea {
-    /* background-color: blue; */
+.name-fields {
+    display: flex;
+    gap: 20px; 
+}
+
+.name-fields .form-group {
+    flex: 1;
+}
+
+.query-type-fields .radio-button {
+    display: flex;
+    gap: 20px; 
+}
+
+.forms textarea {
     height: 100px;
     resize: vertical;
 }
 
-.reg .forms input[type="radio"] {
-    margin-right: 10px;
-    
-}
-
-
-.reg .forms .radio-button .r1{
-    width: 50%;
-    flex: 1;
-    gap: 20px;
+.radio-button label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
     border: 1px solid rgb(207, 197, 197);
     border-radius: 4px;
-}
-.reg .forms .radio-button .r2{
     width: 50%;
-    flex: 1;
-    gap: 20px;
-    border: 1px solid rgb(207, 197, 197);
+    box-sizing: border-box;
 }
 
-
-.reg .forms input[type="checkbox"] {
+.forms input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.reg .consentbox {
+.consentbox {
     display: flex;
     align-items: center;
 }
-.consentbox>label{
-    color:rgb(69, 65, 65); 
+
+.consentbox > label {
+    color: rgb(69, 65, 65);
 }
 
-.reg .forms input[type="submit"] {
+.forms input[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: rgb(18, 110, 75);
-    color:white;
+    color: white;
     border: none;
     border-radius: 4px;
     font-size: 16px;
