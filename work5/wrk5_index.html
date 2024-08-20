@@ -3,61 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wrk5</title>
+    <title>wok5</title>
+    <link rel="stylesheet" href="./style_s.css">
 </head>
 <body>
-    <link rel="stylesheet" href="./style_s.css">
-    <div class="new">
-    <div class="nav">
-        <div class="left">
-            <h2>sneakers</h2>
-            <h3>Collections</h3>
-            <h3>Men</h3>
-            <h3>women</h3>
-            <h3>About</h3>
-            <h3>Contact</h3>
-        </div>
-        <div class="right">
-            <img src="/front_end/work5/images/icon-cart.svg" alt="no image">
-            <img src="/front_end/work5/images/image-avatar.png" alt="noimage">
-        </div>
+    <div class="container">
+        <nav class="nav">
+            <div class="left">
+                <h2>sneakers</h2>
+                <h3>Collections</h3>
+                <h3>Men</h3>
+                <h3>Women</h3>
+                <h3>About</h3>
+                <h3>Contact</h3>
+            </div>
+            <div class="right">
+                <img src="./images/icon-cart.svg" alt="Cart">
+                <img src="./images/image-avatar.png" alt="User Avatar">
+            </div>
+        </nav>
         <hr>
-    </div>
-    <div class="main"> 
-      <div class="contain1">
-         <div class="con-img1">
-            <img src="/front_end/work5/images/image-product-1.jpg" alt=" no image">
-         </div>
-         <div class="con-img2">
-            <img src="/front_end/work5/images/image-product-1-thumbnail.jpg" alt="no image">
-            <img src="/front_end/work5/images/image-product-2-thumbnail.jpg" alt="no image">
-            <img src="/front_end/work5/images/image-product-3-thumbnail.jpg" alt="no image">
-            <img src="/front_end/work5/images/image-product-4-thumbnail.jpg" alt="no image">
-         </div>
-      </div>
-
-      <div class="contain2">
-        <h3>SNEAKER COMPANY</h3>
-        <h1>Fall Limited Edition Sneakers</h1>
-        <h5>These low-profile sneakers are your perfect wear companion.
-            Featuring a durable rubber outer sole,they'll widthstand everything
-            the weather can offer
-        </h5>
-        <span class="product-price">$125.00</span>
-        <span class="off">50%</span>
-        <span class="product-price">$250.00</span>
-
-        <div class="box1">
-            <img src="./images/icon-minus.svg" alt="minus">
-            <h6>0</h6>
-            <img src="./images/icon-plus.svg" alt="plus">
+        <div class="main">
+            <div class="image">
+                <div class="main-image">
+                    <img src="./images/image-product-1.jpg" alt="Product Image">
+                </div>
+                <div class="thumbnail-images">
+                    <div class="thumb-main"><img src="./images/image-product-1-thumbnail.jpg" alt="Thumbnail 1">
+                    </div>
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="Thumbnail 2">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="Thumbnail 3">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="Thumbnail 4">
+                </div>
+            </div>
+            <div class="p1">
+                <h3>SNEAKER COMPANY</h3>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                <div class="prices">
+                    <span class="product-price">$125.00</span>
+                    <span class="discount">50%</span>
+                </div>
+                <div class="old-price">
+                    <span class="original-price">$250.00</span>
+                </div>
+                <div class="box">
+                    <img src="./images/icon-minus.svg" alt="Decrease quantity">
+                    <span class="quantity">0</span>
+                    <img src="./images/icon-plus.svg" alt="Increase quantity">
+                    <button class="cart-button">
+                        <img src="./images/icon-cart.svg" alt="cart">Add to Cart</button>
+                </div>
+                
+            </div>
         </div>
-        <button class="cart">Add to Cart</button>
     </div>
- </div>
-        
-
-</div>
-    
 </body>
 </html>
