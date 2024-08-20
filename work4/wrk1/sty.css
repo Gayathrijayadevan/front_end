@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(187, 225, 187);
+    background-color: rgb(200, 228, 200);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,25 +34,38 @@ body {
 .input-field {
     width: 100%;
     padding: 10px;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(207, 197, 197);
     border-radius: 4px;
     font-size: 14px;
     box-sizing: border-box;
 }
 
 .reg .forms textarea {
+    /* background-color: blue; */
     height: 100px;
     resize: vertical;
 }
 
 .reg .forms input[type="radio"] {
     margin-right: 10px;
+    
 }
 
-.reg .forms .radio-group {
-    display: flex;
+
+.reg .forms .radio-button .r1{
+    width: 50%;
+    flex: 1;
     gap: 20px;
+    border: 1px solid rgb(207, 197, 197);
+    border-radius: 4px;
 }
+.reg .forms .radio-button .r2{
+    width: 50%;
+    flex: 1;
+    gap: 20px;
+    border: 1px solid rgb(207, 197, 197);
+}
+
 
 .reg .forms input[type="checkbox"] {
     margin-right: 10px;
@@ -69,7 +82,7 @@ body {
 .reg .forms input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: rgb(174, 240, 174);
+    background-color: rgb(18, 110, 75);
     color:white;
     border: none;
     border-radius: 4px;

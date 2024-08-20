@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Grey+Qo&family=Moderustic:wght@300..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Grey+Qo&family=Moderustic:wght@300..800&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    /* font-family: Arial, sans-serif; */
+    background-color: rgb(235, 228, 226);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,11 +37,13 @@ body {
 .p1 {
     font-size: 12px;
     color:rgb(140, 140, 154);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 10px;
+    font-family: "Mukta", sans-serif;
 }
 
-.p2 {
+.h2 {
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -46,7 +53,7 @@ body {
 .p3 {
     font-size: 14px;
     line-height: 1.6;
-    color:rgb(118, 103, 103);
+    color:rgb(136, 129, 129);
     margin-bottom: 20px;
 }
 
@@ -57,7 +64,7 @@ body {
 .product-price {
     font-size: 24px;
     font-weight: bold;
-    color: rgb(58, 230, 150);
+    color: rgb(14, 126, 70);
     margin-right: 10px;
 }
 
@@ -72,14 +79,14 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
-    background-color:rgb(58, 230, 150);
+    background-color:rgb(14, 126, 70);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .image{
-    flex: 1;
+    flex: 2;
 }
 .dtl{
 flex: 1;
