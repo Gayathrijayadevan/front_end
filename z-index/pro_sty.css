@@ -1,0 +1,74 @@
+.child1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    z-index: 1;
+}
+.child2{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    z-index: 2;
+}
+.child3{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: black;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: orange;
+}
+.btn:active{
+    background-color: orangered;
+}
+.ad{
+    padding: 20px;
+}
+.ad:focus{
+    border-color: aquamarine
+}
+.ad:active{
+    border-color: aquamarine
+}
+
+
+.container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    transition: .5s;
+}
+img:hover{
+    transition: scale(1.1);
+    /* box-shadow: 10px 10px 20px rgb(0, 0, 0,.9); */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
