@@ -243,7 +243,7 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-.image-container2 {
+.image-container4 {
     flex: 1;
     max-width: 60%;
 }
@@ -276,9 +276,11 @@ nav ul li a {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
-.btn {
+.button-con4{
     display: flex;
+    gap: 10px;
+}
+.btn {
     padding: 10px 20px;
     background-color: #000; 
     color: #fff; 
@@ -287,3 +289,145 @@ nav ul li a {
     cursor: pointer;
     width: fit-content;
 }
+/*---------------------------------*/
+.container5 {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.sneaker-container::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.container5::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+}
+
+.container5::-webkit-scrollbar-track {
+    background-color: #f5f5f5; 
+}
+
+.sneaker-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin-right: 20px; 
+    flex-shrink: 0; 
+}
+
+.sneaker-card img {
+    width: 100%;
+    height: auto;
+}
+
+.sneaker-name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.sneaker-price {
+    color:black;
+    margin-bottom: 20px;
+}
+/*-------------------------------------*/
+
+.container6 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    background-color: #F2E527;
+    color: #214846;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button.secondary {
+    background-color: transparent;
+    border: 2px solid #F2E527;
+    color: #F2E527;
+}
+
+.image-section {
+    flex: 1;
+    position: relative;
+    height: 400px; 
+}
+
+.image-section img {
+    position: absolute;
+    border-radius: 10px;
+}
+
+.img-1 {
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1;
+}
+
+.img-2 {
+    top: 20%;
+    left: 30%;
+    width: 70%;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        padding-right: 0;
+    }
+
+    .image-section {
+        margin-top: 20px;
+        height: 300px; 
+    }
+
+    .image-section img {
+        width: 100%;
+        position: static;
+        margin-bottom: 10px;
+    }
+}
+/*-----------------------------------------*/
