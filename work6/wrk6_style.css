@@ -337,31 +337,44 @@ nav ul li a {
 /*-------------------------------------*/
 
 .container6 {
-    max-width: 1200px;
+    width: 105%;
+    height: 100vh;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(13, 129, 83);
-    margin-top: 20px;
+    background-color:white;
+    margin-top: 60px;
+    position: relative;
 }
 
 .hero-section {
     display: flex;
+    height: 90vh;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color:rgb(14, 110, 78);
+    position: relative;
 }
 
 .text-content {
     flex: 1;
     padding-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:3%;
+    /* color: white; */
+
 }
 
 .text-content h1 {
+    color: white;
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
 .text-content p {
+    color: white;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
@@ -388,27 +401,32 @@ nav ul li a {
 
 .image-section {
     flex: 1;
-    position: relative;
-    height: 400px; 
+    /* position: relative; */
+    height: 100%; 
+    /* background-color: #ff0000; */ 
 }
 
 .image-section img {
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.img1 {
     position: absolute;
-    border-radius: 10px;
-}
-
-.img-1 {
-    top: 0;
-    left: 0;
-    width: 100%; 
-    z-index: 1;
-}
-
-.img-2 {
-    top: 20%;
-    left: 30%;
-    width: 70%;
+    top:35%;
+    left: 3%;
+    width: 50%; 
+    height: 70%;
     z-index: 2;
+}
+
+.img2 {
+    position: absolute;
+    top: -8%;
+    left: 45%;
+    width: 50%;
+    height: 120%;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -507,35 +525,42 @@ img {
 }
 /*----------------------------------------------*/
 .container8 {
-    max-width: 300vh;
+    width: 105%;
     height: 100vh;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgb(15, 14, 14);
-    margin-top: 20px;
+    background-color:white;
+    margin-top: 60px;
+    position: relative;
 }
 
-.hero-section {
+.sections {
     display: flex;
     height: 90vh;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #4e4187;
+    background-color: black;
+    position: relative;
 }
 
-.text-content {
+.text-contents {
     flex: 1;
     padding-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left:3%;
+
 }
 
-.text-content h1 {
+.text-contents h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     color: white;
 }
 
-.text-content p {
+.text-contents p {
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: white;
@@ -565,47 +590,54 @@ img {
     padding: 10px 20px;
 }
 
-.image-section {
+.images-section {
     flex: 1;
-    position: relative;
-    height: 400px; 
+    /* position: relative; */
+    height: 100%; 
+    /* background-color: #ff0000; */
 }
 
-.image-section img {
-    position: absolute;
-    border-radius: 10px;
+.images-section img {
+    /* position: absolute; */
+    border-radius: 0;
+    object-fit: cover;
 }
 
 .img-1 {
-    top: 0;
-    left: 0;
-    width: 100%; 
-    z-index: 1;
-}
-
-.img-2 {
-    top: 20%;
-    left: 30%;
-    width: 70%;
+    position: absolute;
+    top:40%;
+    left: 3%;
+    width: 50%; 
+    height: 70%;
     z-index: 2;
 }
 
+.img-2 {
+    position: absolute;
+    top: -5%;
+    left: 45%;
+    width: 50%;
+    height: 120%;
+    z-index: 1;
+}
+
 @media (max-width: 768px) {
-    .hero-section {
+    
+    .sections {
         flex-direction: column;
         text-align: center;
     }
 
-    .text-content {
+    .text-contents {
         padding-right: 0;
     }
 
-    .image-section {
+    .images-section {
         margin-top: 20px;
         height: 300px; 
     }
 
-    .image-section img {
+    .images-section img {
         width: 100%;
         position: static;
         margin-bottom: 10px;
@@ -881,8 +913,10 @@ h1 {
 .container13 {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: black;
+    align-items: center;
 }
 
 .footer-section {
