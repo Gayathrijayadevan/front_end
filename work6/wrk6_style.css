@@ -508,18 +508,20 @@ img {
 /*----------------------------------------------*/
 .container8 {
     max-width: 300vh;
-    max-height: 600vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(15, 14, 14);
     margin-top: 20px;
 }
 
 .hero-section {
     display: flex;
+    height: 90vh;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #4e4187;
 }
 
 .text-content {
@@ -892,7 +894,7 @@ h1 {
 .footer-section h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #ff5200;
+    color:white;
 }
 
 .footer-section ul {
@@ -922,7 +924,7 @@ h1 {
 }
 
 .app-icons a img {
-    width: 80px;
+    width: 150px;
     margin-right: 10px;
 }
 
@@ -932,39 +934,43 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
-    border-top: 1px solid #333;
+    border-top: 1px solid rgb(51, 51, 51);
     padding-top: 20px;
+    background-color: black;
 }
 
 .payment-methods img {
     margin-right: 15px;
-    width: 40px;
+    width: 250px;
 }
 
 .footer-country {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 450px;
 }
 
 .footer-country img {
-    width: 24px;
+    width: 150px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
-.footer-country span {
-    font-size: 14px;
-}
-
-.footer-bottom p {
-    margin: 0;
-    font-size: 14px;
+.footer-country pre {
+    font-size: 15px;
+    color: rgb(157, 152, 152);
+    margin-left: 200px;
 }
 
 .footer-bottom a {
-    color: #ff5200;
-    text-decoration: none;
+    font-size: 15px;
+    color: rgb(157, 152, 152);
+    text-decoration: underline;
+    /* background-color: wheat; */
 }
 
 .footer-bottom a:hover {
     text-decoration: underline;
 }
+/*---------------------------------------------*/
